@@ -1,0 +1,15 @@
+create table if not exists solace_data_workflow(
+data_process_flow_code Integer not null,
+data_process_flow_type varchar(255) null,
+ref_id varchar(255) null,
+screen_id varchar(255) null,
+cr_id Integer null,
+cr_type_code Integer null,
+user_id Integer null,
+key_atttr varchar(255) null,
+cr_desc varchar(255) null,
+ket_attr_value varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint solace_data_workflow_pk primary key(data_process_flow_code));

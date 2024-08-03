@@ -1,0 +1,15 @@
+create table if not exists solace_data_account_response(
+solace_data_id Integer not null,
+solace_data_owner varchar(255) null,
+active_account char null,
+solace_data_type_id Integer null,
+solace_data_type varchar(255) null,
+solace_data_status varchar(255) null,
+solace_data_description Integer null,
+authorizer_count Integer null,
+auth_country varchar(255) null,
+auth_region_code Integer null,
+exceptions varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint solace_data_account_response_pk primary key(solace_data_id));
